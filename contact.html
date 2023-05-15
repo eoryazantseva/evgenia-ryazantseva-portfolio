@@ -5,8 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Evgenia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script
+    src="https://kit.fontawesome.com/5c10e22d0a.js"
+    crossorigin="anonymous">
+    </script>
 </head>
 <body>
+
+<!-- Header -->
+    <header>
+        <div class="mobile-header">
+            <a href="/index.html" title="Homepage" class="logo"> <img src="img/logo.png" width="130" height="130" alt="Evgenia's Homepage"></a>
+            <button class="hamburger-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 hamburger-icon">
+                    <path fill-rule="evenodd" d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                </svg>                                  
+            </button>
+        </div>
+        <nav class="mobile-nav display-none">
+            <ul>
+                <li> <a href="/index.html">Home</a></li>
+                <li> <a href="/about.html">About</a></li>
+                <li> <a href="/work.html">Work</a></li>
+                <li> <a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h1>Let's get in touch!</h1>
+        <p>Thank you for finding the time to visit my website. I’d love to hear your thoughts and answer any questions you may have!</p>
+
+
+        <form class="contact-form"
+            action="https://formspree.io/f/xoqzbnyy"
+            method="POST"
+        >
+        
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" placeholder="Your name..." />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col-75">
+                    <input
+                    type="email"
+                    id="email"
+                    placeholder="Your email address..."
+                    />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="reason-select">I would like to:</label>
+                </div>
+                <div class="col-75">
+                    <select name="reason" id="reason-select">
+                    <option value="compliment">Give a compliment</option>
+                    <option value="complaint">File a complaint</option>
+                    <option value="review">Share a review</option>
+                    <option value="suggestion">Make a suggestion</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="message">Message:</label>
+                </div>
+                <div class="col-75">
+                    <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Your message..."
+                    style="height: 100px"
+                    ></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn-branding">Submit</button>
+        </form>
+    </section>
+
     
+<!-- Footer -->
+<footer>
+    <div class="social-links">
+        <a href="#" target="_blank" title="Facebook Profile"
+            ><span class="fab fa-facebook fa-lg"></span
+        ></a>
+        <a href="#" target="_blank" title="LinkedIn Profile"
+            ><span class="fab fa-linkedin fa-lg"></span
+        ></a>
+        <a href="#" target="_blank" title="Instagram Profile">
+            <span class="fab fa-instagram fa-lg"></span
+        ></a>
+    </div>
+    <small>
+        © This website was coded by Evgenia Ryazantseva as part of She Codes 2023 and is
+        <a href="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio"
+            >open-sourced</a
+        >
+    </small>
+</footer>
 </body>
 </html>

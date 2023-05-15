@@ -129,6 +129,60 @@ header .hamburger-button {
 
 
 
+/* Contact page main content styling */
+
+.contact-section {
+    padding: 24px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+
+.contact-section p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form:placeholder-shown {
+    font-family: var(--default-font-family);
+}
+
+input, select, textarea {
+    width: 85%;
+    padding: 12px;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    text-align: right;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /* Footer */
 
@@ -157,6 +211,28 @@ header .hamburger-button {
 footer {
     text-align: center;
     background-color: var(--peach);
+}
+
+
+/* Components */
+
+.btn-branding {
+    background-color: var(--peach);
+    border-color: var(--peach);
+    border-radius: 18px;
+    color: var(--blue);
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 25px;
+    margin: 4px 2px;
+    transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+    color: var(--peach);
+    background-color: var(--blue);
+    cursor: pointer;
 }
 
 /* Utilities */
