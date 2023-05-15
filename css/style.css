@@ -127,6 +127,38 @@ header .hamburger-button {
     background-color: var(--blue);
 }
 
+
+
+
+/* Footer */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.social-links a {
+    margin: 5px;
+    color: var(--blue);
+    background-color: var(--peach);
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5%;
+    transition: all 100ms ease-in-out;
+    
+}
+
+.social-links a:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--peach);
+}
+
 /* Utilities */
 
 .display-none {
