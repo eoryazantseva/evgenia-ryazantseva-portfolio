@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap');
 
 :root {
-	--pink: #f38fb1;
 	--orange: #FC4C02;
-	--green: #57d68d;
 	--blue: #011A70;
 	--black: #111111;
-	--gray: #F8F9FA;
+	--peach: #fde9df;;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
 }
 
 
@@ -15,10 +15,14 @@
 html {
 	box-sizing: border-box;
 	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	color: var(--black);
+	font-family: var(--default-font-family);
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.5;
+	color: var(--blue);
 	scroll-behavior: smooth;
 }
+
 
 *,
 *:before,
@@ -68,3 +72,63 @@ select {
 
 
 
+/* Header */
+
+.hamburger-icon {
+height: 45px;
+}
+
+.mobile-header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--peach);
+}
+
+.mobile-header .logo {
+    max-width: 17%;
+    cursor: pointer;
+}
+
+
+header .hamburger-button {
+    all: unset;
+    color: var(--blue);
+    display: none;
+}
+
+
+.mobile-nav {
+        display: none;
+    }
+    
+@media (max-width: 768px) {
+        .mobile-nav {
+            display: block;
+        }
+        header .hamburger-button {
+            display: block;
+        }
+    }
+
+.mobile-nav a {
+    text-decoration: none;
+    color: var(--blue);
+    display: block;
+    padding: 4px 16px;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+}
+
+.mobile-nav a:hover {
+    outline: 1px solid var(--black);
+    color: var(--peach);
+    background-color: var(--blue);
+}
+
+/* Utilities */
+
+.display-none {
+    display: none;
+}
