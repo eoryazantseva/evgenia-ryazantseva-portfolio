@@ -83,7 +83,7 @@ height: 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--peach);
+    background-color: white;
 }
 
 .mobile-header .logo {
@@ -127,6 +127,41 @@ header .hamburger-button {
     background-color: var(--blue);
 }
 
+
+/* Homepage main section */
+
+.hero-image {
+    /* background-color: var(--peach); */
+background-image: url(/img/grey-wallpaper.jpg);
+    opacity: 0.7;
+    height: 600px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+.hero-text {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    text-align: left;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.hero-intro {
+    font-size: 100px;
+    font-family: var(--default-font-family);
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.hero-text p {
+    font-size: 30px;
+    color: var(--orange);
+}
 
 
 /* Contact page main content styling */
@@ -195,7 +230,7 @@ label {
 .social-links a {
     margin: 5px;
     color: var(--blue);
-    background-color: var(--peach);
+    background-color: white;
     padding: 8px 16px;
     font-size: 16px;
     border-radius: 5%;
@@ -210,31 +245,30 @@ label {
 
 footer {
     text-align: center;
-    background-color: var(--peach);
+    background-color: white;
 }
 
 
 /* Components */
 
 .btn-branding {
-    background-color: var(--peach);
-    border-color: var(--peach);
-    border-radius: 18px;
-    color: var(--blue);
+    background: var(--blue);
+    border-radius: 4px;
+    color: white;
     font-family: var(--default-font-family);
     font-size: 18px;
-    line-height: 25px;
-    padding: 10px 25px;
-    margin: 4px 2px;
+    line-height: 27px;
+    padding: 15px 30px;
+    margin: 30px 2px;
     transition: all 100ms ease-in-out;
 }
 
 .btn-branding:hover {
-    color: var(--peach);
-    background-color: var(--blue);
-    cursor: pointer;
+    color: white;
+    scale: 1.03;
+    background: var(--orange);
+    border: solid 1px var(--blue);
 }
-
 /* Utilities */
 
 .display-none {
