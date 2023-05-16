@@ -79,7 +79,7 @@ height: 45px;
 }
 
 .mobile-header {
-    padding: 16px;
+    padding: 8px 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,7 +87,7 @@ height: 45px;
 }
 
 .mobile-header .logo {
-    max-width: 17%;
+    max-width: 25%;
     cursor: pointer;
 }
 
@@ -123,8 +123,12 @@ header .hamburger-button {
 
 .mobile-nav a:hover {
     outline: 1px solid var(--black);
-    color: var(--peach);
+    color: white;
     background-color: var(--blue);
+}
+
+.mobile-nav li.active a {
+    color: var(--orange);
 }
 
 
@@ -132,15 +136,13 @@ header .hamburger-button {
 
 .hero-image {
     /* background-color: var(--peach); */
-background-image: url(/img/grey-wallpaper.jpg);
-    opacity: 0.7;
+    background-image: url(/img/grey-wallpaper.jpg);
     height: 600px;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     justify-content: left;
-    padding: 20px;
 }
 .hero-text {
     font-family: var(--heading-font-family);
@@ -149,7 +151,7 @@ background-image: url(/img/grey-wallpaper.jpg);
     color: var(--blue);
     display: flex;
     align-items: center;
-    padding: 100px;
+    padding: 48px;
 }
 .hero-intro {
     font-size: 100px;
@@ -163,6 +165,29 @@ background-image: url(/img/grey-wallpaper.jpg);
     color: var(--orange);
 }
 
+
+/* About me main content styling */
+
+.about-me {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 24px 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me img {
+    border-radius: 4px;
+}
+
+.about-me-text p {
+    margin-top: 24px;
+}
+
+.about-final-sentence {
+    margin-top: 24px;
+    font-weight: bold;
+}
 
 /* Contact page main content styling */
 
