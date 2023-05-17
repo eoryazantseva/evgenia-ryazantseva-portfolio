@@ -165,9 +165,6 @@ header .hamburger-button {
     }
 }
 
-/* header .desktop-nav {
-    padding: 0 30px;
-} */
 
 @media (min-width: 992px) {
     header {
@@ -183,20 +180,10 @@ header .hamburger-button {
 
 .hero-image {
     background: var(--purple);
-    height: 600px;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
 }
-
-/* @media (min-width: 992px) {
-    .hero-image {
-        width: 80%;
-        margin: 0 auto;
-    }
-} */
 
 .hero-text {
     font-family: var(--heading-font-family);
@@ -319,20 +306,36 @@ height: auto;
 
 /* About me main content styling */
 
-.about-me {
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 24px 48px;
-    display: flex;
-    flex-direction: column;
+@media (min-width:992px) {
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
 
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    text-align: center;
+}
 .about-me img {
     border-radius: 4px;
     max-width: 100%;
+    height: auto;
 }
 
-.about-me-text p {
+.about-image, .about-text {
+        width: 50%;
+        padding: 2%;
+        display: inline-block;
+        line-height: 1.5;
+}
+.about-text p {
     margin-top: 24px;
 }
 
@@ -341,6 +344,16 @@ height: auto;
     font-weight: bold;
 }
 
+@media (max-width: 992px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-image, .about-text {
+        width: 95%;
+        padding: 16px 48px;
+}
+}
 /* Contact page main content styling */
 
 .contact-section {
@@ -355,7 +368,7 @@ height: auto;
     }
 }
 
-h1 {
+.contact-section h1 {
     font-size: 35px;
     margin-bottom: 24px;
 }
