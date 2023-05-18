@@ -4,7 +4,7 @@
 	--orange: #FC4C02;
 	--blue: #011A70;
 	--black: #111111;
-	--purple: #F9F7FE;;
+	--purple: #E1E7FF;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: 'Open Sans', sans-serif;;
 }
@@ -213,20 +213,20 @@ header .hamburger-button {
 
 #featured-projects article {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
+    margin: 50px 0;
     }
 
-    @media (min-width:992px) {
-        #featured-project article {
-            max-width: 80%;
-        }
+@media (min-width:992px) {
+    main {
+    max-width: 80%;
+    }
     }
 
 .column {
     width: calc(100%/2 - 5%);
-    padding: 5%;
+    padding: 3%;
     display: inline-block;
     line-height: 1.5;
 }
@@ -244,9 +244,9 @@ header .hamburger-button {
 }
 
 main .featured-projects-header {
-    margin: 48px 0;
+    margin: 24px 0 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
 
 }
 
@@ -255,6 +255,7 @@ main .featured-projects-header {
     text-align: center;
     max-width: 100%;
     height: auto;
+    border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -285,6 +286,9 @@ height: auto;
     main h2 {
         margin: 32px 0;
         font-size: 32px;
+    }
+    #featured-projects .project-image {
+        margin: 2%;
     }
     .project-description h2 {
         font-size: 24px;
@@ -375,6 +379,7 @@ main h1 {
     position: relative;
     overflow: hidden;
     background-color: var(--purple);
+    border-radius: 4px;
 }
 
 .work-image img {
@@ -388,6 +393,7 @@ main h1 {
     bottom: 0;
     right: 0;
     object-fit: contain;
+    border-radius: 4px;
 }
 
 .project h3 {
