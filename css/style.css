@@ -73,6 +73,10 @@ select {
 
 
 /* Header */
+header {
+    background-color: white;
+    padding: 16px 48px;
+}
 
 .hamburger-icon {
 height: 48px;
@@ -84,10 +88,7 @@ height: 48px;
     justify-content: space-between;
 }
 
-header {
-    background-color: white;
-    padding: 16px 48px;
-}
+
 
 .mobile-header img {
     height: 60px;
@@ -141,7 +142,7 @@ header .hamburger-button {
     color: var(--orange);
 }
 
-@media (min-width:768px) {
+@media (min-width:769px) {
     header {
         display: flex;
         justify-content: space-between;
