@@ -21,6 +21,9 @@ html {
     line-height: 1.5;
 	color: var(--blue);
 	scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -70,9 +73,15 @@ select {
 	font: inherit;
 }
 
+body {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;   
+}
 
 
 /* Header */
+
 header {
     background-color: white;
     padding: 16px 48px;
@@ -170,7 +179,7 @@ header .hamburger-button {
 @media (min-width: 992px) {
     header {
         width: 80%;
-        margin: 0 auto;
+        margin: 0 auto 30px;
         padding: 16px 0;
     }
     
@@ -269,12 +278,24 @@ main .featured-projects-header {
         flex-direction: column-reverse;
         align-items: center;
     }
+
+    #featured-projects article {
+        margin: 20px 0;
+        }
     .column {
         width: 95%;
+    }
+    .project-description {
+        text-align: center;
     }
     .project-description h2 {
         text-align: center;
     }
+    main .featured-projects-header {
+        font-size: 24px;
+    
+    }
+
 }
 
 #featured-projects img {
@@ -340,6 +361,8 @@ main h1 {
 }
 .about-text p {
     margin-top: 24px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .about-final-sentence {
@@ -359,6 +382,16 @@ main h1 {
 }
 
 /* Work page main content styling */
+
+.work-main h1 {
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .work-main h1 {
+        font-size: 24px;
+    }
+}
 .work-projects {
     display: flex;
     flex-wrap: wrap;
@@ -438,13 +471,26 @@ main h1 {
     margin-bottom: 24px;
 }
 
+@media (max-width: 768px) {
+    .contact-section h1 {
+        font-size: 24px;
+    }
+}
+
 .contact-section p {
     font-size: 20px;
     margin-bottom: 24px;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: center;
     padding: 20px;
 }
+
+@media (max-width: 768px) {
+    .contact-section p {
+        font-size: 16px;
+    }
+}
+
+
 .contact-form {
     padding: 20px;
 }
@@ -486,6 +532,18 @@ label {
 
 /* Footer */
 
+footer {
+    text-align: center;
+    background-color: white;
+    margin-top: auto;
+    padding: 40px 5px 10px;
+
+}
+
+main {
+    flex: 1;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -508,10 +566,7 @@ label {
     transform: scale(1.1);
 }
 
-footer {
-    text-align: center;
-    background-color: white;
-}
+
 
 @media (min-width: 992px) {
     footer {
