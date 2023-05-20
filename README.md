@@ -28,9 +28,9 @@ The project includes different styles for active, hover, and focus states for th
 
 ### Wireframes 
 - [ ] Created in Excalidraw to show basic layout on desktop and mobile.
-![ Wireframe Homepage Desktop ] ( img/wireframe_homepage_desktop.png )
-![ Wireframe About Desktop ] ( img/wireframe_about_desktop.png )
-![ Wireframe Work Desktop ] ( img/wireframe_work_desktop.png )
+![ Wireframe Homepage Desktop ] (evgenia-ryazantseva-portfolio/blob/main/img/wireframe_homepage_desktop.png)
+![ Wireframe About Desktop ] (evgenia-ryazantseva-portfolio/blob/main/img/wireframe_about_desktop.png )
+![ Wireframe Work Desktop ] (evgenia-ryazantseva-portfolio/blob/main/img/wireframe_work_desktop.png )
 ![ Wireframe Contact Desktop ] ( img/wireframe_contact_desktop.png )
 ![ Wireframe Homepage Mobile ] ( img/wireframe_homepage_mobile.png )
 ![ Wireframe About Mobile ] ( img/wireframe_about_mobile.png )
