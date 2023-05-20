@@ -27,14 +27,22 @@ The project contains 4 web pages. It's version controlled with Git and deployed 
 The project includes different styles for active, hover, and focus states for the links, including buttons and navigation menu items. The project includes Javascipt for the dynamic hamburger menu for the mobile and tablet screens.
 
 ### Wireframes 
-- [ ] Created in Excalidraw to show basic layout on desktop and mobile.
+Created in Excalidraw to show basic layout on desktop and mobile.
+- [ ] Wireframe Homepage Desktop 
 ![ Wireframe Homepage Desktop ](img/wireframe_homepage_desktop.png)
+- [ ] Wireframe About Desktop
 ![ Wireframe About Desktop ](img/wireframe_about_desktop.png )
+- [ ] Wireframe Work Desktop
 ![ Wireframe Work Desktop ](img/wireframe_work_desktop.png )
+- [ ] Wireframe Contact Desktop
 ![ Wireframe Contact Desktop ](img/wireframe_contact_desktop.png )
+- [ ] Wireframe Homepage Mobile
 ![ Wireframe Homepage Mobile ](img/wireframe_homepage_mobile.png )
+- [ ] Wireframe About Mobile
 ![ Wireframe About Mobile ](img/wireframe_about_mobile.png )
+- [ ] Wireframe Work Mobile
 ![ Wireframe Work Mobile ](img/wireframe_work_mobile.png )
+- [ ] Wireframe Contact Mobile
 ![ Wireframe Contact Mobile ](img/wireframe_contact_mobile.png )
 
 ## Typography
@@ -51,4 +59,8 @@ The project includes different styles for active, hover, and focus states for th
 | Black  | #36394D |
 
 ## Screenshots
-- [ ] Desktop screenshots
+- [ ] Desktop screenshot Homepage ![desktop_homepage_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/e4c1bb54-a858-4894-8489-ad5c14c89430)
+- [ ] Desktop screenshot About page ![desktop_about_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/30480858-fb98-4ce7-a705-82f22876d71d)
+- [ ] Desktop screenshot Work page![desktop_work_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/f4890f54-5d14-4e43-9859-706abf92e439)
+- [ ] Desktop screenshot Contact Page ![image](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/a9d164f4-6e51-42ae-8fe6-6aa393d525b8)
+
