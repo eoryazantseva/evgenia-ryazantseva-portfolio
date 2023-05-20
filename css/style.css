@@ -220,6 +220,14 @@ header .hamburger-button {
     font-size: 48px;
 }
 
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 32px;
+    }
+    .hero-text p {
+        font-size: 24px;
+    }
+}
 
 #featured-projects article {
     display: flex;
@@ -344,9 +352,16 @@ height: auto;
     align-items: center;
 }
 
-main h1 {
+.main-about h1 {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .main-about h1 {
+        font-size: 24px;
+    }
+}
+
 .about-me img {
     border-radius: 4px;
     max-width: 100%;
@@ -607,6 +622,7 @@ main {
 
 .btn-branding {
     text-decoration: none;
+    border: none;
     display: inline-block;
     background: var(--blue);
     border-radius: 4px;
@@ -624,6 +640,15 @@ main {
     scale: 1.03;
     background: var(--orange);
     border: solid 1px var(--blue);
+}
+
+@media (max-width: 768px) {
+    .btn-branding {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px 16px;
+        margin: 16px 4px;
+    }
 }
 /* Utilities */
 
