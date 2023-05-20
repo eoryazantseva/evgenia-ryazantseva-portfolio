@@ -455,7 +455,7 @@ main h1 {
 /* Contact page main content styling */
 
 .contact-section {
-    padding: 24px;
+    padding: 8px;
     text-align: center;
 }
 
@@ -467,67 +467,96 @@ main h1 {
 }
 
 .contact-section h1 {
-    font-size: 35px;
+    font-size: 24px;
     margin-bottom: 24px;
-}
-
-@media (max-width: 768px) {
-    .contact-section h1 {
-        font-size: 24px;
-    }
 }
 
 .contact-section p {
-    font-size: 20px;
-    margin-bottom: 24px;
-    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
     padding: 20px;
-}
-
-@media (max-width: 768px) {
-    .contact-section p {
-        font-size: 16px;
-    }
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
 .contact-form {
-    padding: 20px;
+    max-width: 100% ;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.contact-form:placeholder-shown {
-    font-family: var(--default-font-family);
-}
-
-input, select, textarea {
-    width: 85%;
-    padding: 12px;
-    border: 1px solid var(--blue);
-    border-radius: 4px;
-    resize: vertical;
-    box-sizing: border-box;
+.form-group {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 5px 0;
 }
 
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-    text-align: right;
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-.col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px 0;
+    line-height: 27px;
+    transition: all 100ms ease-in-out;
 }
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
+
+.contact-form button:hover {
+    color: white;
+    scale: 1.03;
+    background: var(--orange);
+    border: solid 1px var(--blue);
 }
+
+@media (min-width: 768px) {
+    .contact-form {
+    flex-direction: column;
+    flex-wrap: wrap;
+      max-width: 800px;
+    }
+    
+    .form-group {
+        flex-direction: column;
+    }
+    .contact-section p {
+        font-size: 20px;
+        margin-bottom: 24px;
+        text-align: center;
+        padding: 20px;
+    }
+    .contact-section {
+        padding: 24px;
+    }
+    .contact-section h1 {
+        font-size: 35px;
+    }
+    input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  }
 
 
 /* Footer */
@@ -547,7 +576,6 @@ main {
 .social-links {
     display: flex;
     justify-content: center;
-    /* margin: 15px 0; */
 }
 
 .social-links a {
