@@ -36,7 +36,7 @@ Created in Excalidraw to show basic layout on desktop and mobile.
 
 - [ ] Wireframe Homepage Desktop 
 
-<img src="img/wireframe_homepage_desktop.png" width="600">
+  <img src="img/wireframe_homepage_desktop.png" width="600">
 
 - [ ] Wireframe About Desktop
 
@@ -53,19 +53,19 @@ Created in Excalidraw to show basic layout on desktop and mobile.
 
 - [ ] Wireframe Homepage Mobile
 
-  <img src="img/wireframe_homepage_mobile.png" width="600">
+  <img src="img/wireframe_homepage_mobile.png" width="300">
 
 - [ ] Wireframe About Mobile
 
-  <img src="img/wireframe_about_mobile.png " width="600">
+  <img src="img/wireframe_about_mobile.png " width="300">
 
 - [ ] Wireframe Work Mobile
 
-  <img src="img/wireframe_work_mobile.png" width="600">
+  <img src="img/wireframe_work_mobile.png" width="300">
 
 - [ ] Wireframe Contact Mobile
 
-  <img src="img/wireframe_contact_mobile.png " width="600">
+  <img src="img/wireframe_contact_mobile.png " width="300">
 
 
 ## Typography
@@ -82,20 +82,40 @@ Created in Excalidraw to show basic layout on desktop and mobile.
 | Black  | #36394D |
 
 ## Screenshots Desktop
-- [ ] Desktop screenshot Homepage ![desktop_homepage_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/e4c1bb54-a858-4894-8489-ad5c14c89430)
-- [ ] Desktop screenshot About page ![desktop_about_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/30480858-fb98-4ce7-a705-82f22876d71d)
-- [ ] Desktop screenshot Work page![desktop_work_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/f4890f54-5d14-4e43-9859-706abf92e439)
-- [ ] Desktop screenshot Contact Page ![image](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/a9d164f4-6e51-42ae-8fe6-6aa393d525b8)
+
+- [ ] Desktop screenshot Homepage
+
+  ![desktop_homepage_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/e4c1bb54-a858-4894-8489-ad5c14c89430)
+  
+- [ ] Desktop screenshot About page 
+
+  ![desktop_about_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/30480858-fb98-4ce7-a705-82f22876d71d)
+  
+- [ ] Desktop screenshot Work page
+
+  ![desktop_work_screenshot](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/f4890f54-5d14-4e43-9859-706abf92e439)
+  
+- [ ] Desktop screenshot Contact Page 
+
+  ![image](https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/a9d164f4-6e51-42ae-8fe6-6aa393d525b8)
 
 ## Screenshots Mobile
+
 - [ ] Mobile screenshot Homepage 
-  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/a88d7ac7-1884-4504-9e5c-0b3789c4ef97" width="250">
+
+  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/a88d7ac7-1884-4504-9e5c-0b3789c4ef97" width="300">
+  
 - [ ] Mobile screenshot About page
-  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/48ce29de-6f81-4a6e-b86b-8e25ef9aec26" width="250">
+
+  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/48ce29de-6f81-4a6e-b86b-8e25ef9aec26" width="300">
+  
 - [ ] Mobile screenshot Work page  
-  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/6cec54b7-5e32-464b-89a9-67f6d8d73ee3" width="250">
+
+  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/6cec54b7-5e32-464b-89a9-67f6d8d73ee3" width="300">
+  
 - [ ] Mobile screenshot Contact page 
-  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/9529aba4-9cb1-493b-8fdb-c8969f20def9" width="250">
+
+  <img src="https://github.com/eoryazantseva/evgenia-ryazantseva-portfolio/assets/93800981/9529aba4-9cb1-493b-8fdb-c8969f20def9" width="300">
 
 
 
